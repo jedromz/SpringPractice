@@ -9,23 +9,27 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.jedromz</groupId>
-    <artifactId>spring_getting_started</artifactId>
+    <artifactId>springboot-consuming-rest-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring_getting_started</name>
-    <description>Spring Getting Started Guides</description>
+    <name>springboot-consuming-rest-api</name>
+    <description>SpringBoot Consuming REST api Getting Started</description>
     <properties>
         <java.version>11</java.version>
     </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
 

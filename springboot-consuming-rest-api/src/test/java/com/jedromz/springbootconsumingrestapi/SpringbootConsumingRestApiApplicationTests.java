@@ -1,10 +1,10 @@
-package com.jedromz.spring_getting_started;
+package com.jedromz.springbootconsumingrestapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringGettingStartedApplicationTests {
+class SpringbootConsumingRestApiApplicationTests {
 
     @Test
     void contextLoads() {
